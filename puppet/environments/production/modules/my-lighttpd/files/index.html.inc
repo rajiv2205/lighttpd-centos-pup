@@ -1,0 +1,1 @@
+lighttpd is working

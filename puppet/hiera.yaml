@@ -1,0 +1,12 @@
+---
+:backends:
+  - yaml
+:yaml:
+  :datadir: "/etc/puppet/environments/%{::environment}/hieradata"
+:hierarchy:
+   - "%{clientcert}"
+   - "%{::fqdn}"
+   - common
+:logger: puppet
+:merge_behavior:
+   - deeper

@@ -1,0 +1,15 @@
+{
+  "LICENSE": "a300b604c66de62cf6e923cca89c9d83",
+  "README.md": "d75e999e0198839baf24bd7b4bf18209",
+  "Rakefile": "e90d68823ff237c89224eb139f8926ad",
+  "manifests/dotconf.pp": "54f087fadbb3c4e2d1b35fe6b796ec3d",
+  "manifests/init.pp": "dea63b0b8d420588ae8514e6f3d910ed",
+  "manifests/params.pp": "c6fcb56c1ee32ecb2f1364742e8839fd",
+  "manifests/spec.pp": "75730ad1fb94c3d693f8e2dbd5a0acf2",
+  "metadata.json": "1ed3af54bfe13f4d722ef07e743ce1f3",
+  "spec/classes/lighttpd_spec.rb": "6cad89155f24091a92cf8c774e671847",
+  "spec/defines/lighttpd_dotconf_spec.rb": "446543d942abcf44825c55260d843445",
+  "spec/spec_helper.rb": "0db89c9a486df193c0e40095422e19dc",
+  "templates/lighttpd.conf.erb": "03a3317523c15beafa3006c7d0d65807",
+  "templates/spec.erb": "63326424ce03f058c2e89992d678d8e9"
+}

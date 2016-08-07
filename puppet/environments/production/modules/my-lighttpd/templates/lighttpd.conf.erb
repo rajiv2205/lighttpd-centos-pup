@@ -1,0 +1,16 @@
+server.document-root = "<%= scope['my-lighttpd::data_dir'] %>"
+
+server.port = 80
+
+server.username = "lighttpd" 
+server.groupname = "lighttpd" 
+
+mimetype.assign = (
+  ".html" => "text/html", 
+  ".txt" => "text/plain",
+  ".jpg" => "image/jpeg",
+  ".png" => "image/png" 
+)
+
+static-file.exclude-extensions = ( ".fcgi", ".php", ".rb", "~", ".inc" )
+index-file.names = ( "index.html" )
